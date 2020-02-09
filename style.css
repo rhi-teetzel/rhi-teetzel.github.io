@@ -1,7 +1,8 @@
 *{
-    font-family: sans-serif;
-    line-height: 1.618em;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.7em;
     box-sizing: border-box;
+    
 }
 
 html{
@@ -13,11 +14,12 @@ html{
 
 body{
     display: grid;
-    grid-template-rows: 1fr 8fr;
+    grid-template-rows: 1fr 7fr;
     max-width: 70vw;
     min-width: 150px;
     margin: 2vw;
     padding: 1em;
+
 }
 
 nav{
@@ -45,55 +47,15 @@ nav a:hover{
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: 2em;
 }
 
 section{
     background-color: #D9A491;
     border: 2px solid black;
-    margin: 2em;
-    padding: 1em;
     min-width: .5vw;
     color: black;
-}
-
-article{
-    min-width: .5vw;
-    max-width: 100%;
-}
-
-#skillsList{
-    width: 100%;
-}
-
-#myProjects{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-#myProjects article{
-    border: 2px solid black;
-    padding: .4em;
-    margin-top: 0;
-    text-align: center;
-}
-
-#myProjects article p{
-    font-size: 12px;
-    margin: 0;
-    text-align: left;
-    line-height: 1em;
-}
-
-#myProjects img{
-    width: 150px;
-    height: 150px;
-    
-    align-content: center;
-}
-
-.projectHeader{
-    grid-column: 1 / -1;
-    margin-top: 0;
+    padding: 1em;
     
 }
 
@@ -109,25 +71,107 @@ h1{
     color: #A66556;
     font-weight: 800;
     font-variant: petite-caps;
+    letter-spacing: 3px;
 }
 
 span h2{
     padding-left: 14px;
     margin: auto;    
     color: #A66556;
+    font-size: 22px;
     font-weight: 800;
+    
 }
 
 h2{
     margin-bottom: 0;
     margin-top: 0;
     color: #A66556;
+    letter-spacing: 2px;
 }
 
 h3{
     margin: 0;
     color: #A66556;
+    letter-spacing: 2px;
 }
+
+
+article{
+    min-width: .5vw;
+    max-width: 100%;
+}
+
+#aboutMe{
+    text-align: left;
+    margin: 0;
+}
+
+#aboutMe img{
+    margin-right: 1em;
+    height: 300px;
+    float: left;
+
+}
+
+#aboutMe p{
+    margin: 0;
+}
+
+#skillsList{
+    margin: 0;
+}
+
+#skillsList p{
+    width: 100%;
+    text-align: left;
+}
+
+#skillsList li{
+    list-style: none;
+    margin: 1em;
+    border-bottom: 1px solid black;
+    height: 4vw;
+}
+
+#skillsList ul{
+    padding: 0;
+}
+
+
+#myProjects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#myProjects article{
+    border: 2px solid black;
+    padding: 1em;
+    margin-top: 0;
+    text-align: center;
+}
+
+#myProjects article p{
+    font-size: 12px;
+    margin: 0;
+    text-align: center;
+    line-height: 1em;
+}
+
+#myProjects img{
+    width: 150px;
+    height: 150px;
+    padding: .5em;
+    
+    align-content: center;
+}
+
+.projectHeader{
+    grid-column: 1 / -1;
+    margin-top: 0;
+    
+}
+
 
 #contactMe{
     display: grid;
@@ -148,4 +192,8 @@ button{
 
 button:hover{
     color: white;
+}
+
+footer{
+    margin: .5em 2em;
 }
