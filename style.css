@@ -17,6 +17,7 @@ body{
     max-width: 70vw;
     min-width: 150px;
     margin: 2vw;
+    margin-top: 0;
     padding: 1em;
 }
 
@@ -64,19 +65,11 @@ header{
 h1{
     padding-left: 10px;
     margin: auto;
-    font-size: 5em;
+    font-size: 6em;
     color: #A66556;
-    font-weight: 800;
+    font-weight: 1000;
     font-variant: petite-caps;
-    letter-spacing: 3px;
-}
-
-span h2{
-    padding-left: 14px;
-    margin: auto;    
-    color: #A66556;
-    font-size: 22px;
-    font-weight: 800;
+    letter-spacing: 7px;
 }
 
 h2{
