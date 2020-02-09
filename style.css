@@ -58,8 +58,7 @@ section{
 }
 
 header{
-    justify-items: center;
-    padding: 1em;
+    padding: 2em;
 }
 
 h1{
@@ -117,9 +116,7 @@ article{
 
 #skillsList li{
     list-style: none;
-    margin: 1em;
-    border-bottom: 1px solid black;
-    height: 4vw;
+    letter-spacing: 1px;
 }
 
 #skillsList ul{
@@ -148,7 +145,8 @@ article{
 
 #myProjects img{
     width: 150px;
-    height: 150px;
+    max-width: 15vw;
+    height: autopx;
     padding: .5em;
     align-content: center;
 }
