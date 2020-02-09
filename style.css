@@ -2,7 +2,6 @@
     font-family: 'Roboto Condensed', sans-serif;
     line-height: 1.7em;
     box-sizing: border-box;
-    
 }
 
 html{
@@ -19,7 +18,6 @@ body{
     min-width: 150px;
     margin: 2vw;
     padding: 1em;
-
 }
 
 nav{
@@ -56,7 +54,6 @@ section{
     min-width: .5vw;
     color: black;
     padding: 1em;
-    
 }
 
 header{
@@ -80,7 +77,6 @@ span h2{
     color: #A66556;
     font-size: 22px;
     font-weight: 800;
-    
 }
 
 h2{
@@ -111,7 +107,6 @@ article{
     margin-right: 1em;
     height: 300px;
     float: left;
-
 }
 
 #aboutMe p{
@@ -162,23 +157,19 @@ article{
     width: 150px;
     height: 150px;
     padding: .5em;
-    
     align-content: center;
 }
 
 .projectHeader{
     grid-column: 1 / -1;
     margin-top: 0;
-    
 }
 
 
 #contactMe{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    
     justify-items: center;
-
     width: 100%;
 }
 
