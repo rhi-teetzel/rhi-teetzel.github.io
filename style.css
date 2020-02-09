@@ -7,16 +7,17 @@
 html{
     margin-top: 3em;
     font-size: 14px;
+    background: url('images/mosaic.jpg') no-repeat center center fixed; 
+    background-size: cover;
 }
 
 body{
     display: grid;
-    grid-template-rows: 1fr 12fr;
+    grid-template-rows: 1fr 8fr;
     max-width: 70vw;
     min-width: 150px;
     margin: 2vw;
     padding: 1em;
-    
 }
 
 nav{
@@ -27,7 +28,7 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    background: black;
+    background: #D9A491;
 }
 
 nav a{
@@ -41,18 +42,18 @@ nav a:hover{
 
 .container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 section{
-    background-color: #666;
+    background-color: #D9A491;
     border: 2px solid black;
     margin: 2em;
     padding: 1em;
     min-width: .5vw;
-
+    color: black;
 }
 
 article{
@@ -67,8 +68,6 @@ article{
 #myProjects{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    
-    
 }
 
 #myProjects article{
@@ -104,22 +103,30 @@ header{
 }
 
 h1{
-    padding-left: 14px;
+    padding-left: 10px;
     margin: auto;
+    font-size: 5em;
+    color: #A66556;
+    font-weight: 800;
+    font-variant: petite-caps;
 }
 
-span{
+span h2{
     padding-left: 14px;
-    margin: auto;
+    margin: auto;    
+    color: #A66556;
+    font-weight: 800;
 }
 
 h2{
     margin-bottom: 0;
     margin-top: 0;
+    color: #A66556;
 }
 
 h3{
     margin: 0;
+    color: #A66556;
 }
 
 #contactMe{
@@ -130,8 +137,6 @@ h3{
 
     width: 100%;
 }
-
-
 
 button{
     padding: 0;
