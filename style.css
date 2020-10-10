@@ -7,7 +7,7 @@
 html{
     margin-top: 3em;
     font-size: 14px;
-    background: url('images/mosaic.jpg') no-repeat center center fixed; 
+    background: url('images/geometric.jpg') no-repeat center center fixed; 
     background-size: cover;
 }
 
@@ -29,7 +29,7 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    background: #D9A491;
+    background: #9eb3c2;
 }
 
 nav a{
@@ -50,7 +50,7 @@ nav a:hover{
 }
 
 section{
-    background-color: #D9A491;
+    background-color: #9eb3c2;
     border: 2px solid black;
     min-width: .5vw;
     color: black;
@@ -65,7 +65,7 @@ h1{
     padding-left: 10px;
     margin: auto;
     font-size: 6em;
-    color: #A66556;
+    color: #5E7F97;
     font-weight: 1000;
     font-variant: petite-caps;
     letter-spacing: 7px;
@@ -74,13 +74,13 @@ h1{
 h2{
     margin-bottom: 0;
     margin-top: 0;
-    color: #A66556;
+    color: #5E7F97;
     letter-spacing: 2px;
 }
 
 h3{
     margin: 0;
-    color: #A66556;
+    color: #5E7F97;
     letter-spacing: 2px;
 }
 
